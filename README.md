@@ -1,5 +1,5 @@
 ## Hi there My Name is Will👋 
-<h1>Hi, I'm Willie, an <a href=https://www.linkedin.com/in/willieminor/">IT Professional</a>☺</h1>
+<h1>  <a href=https://www.linkedin.com/in/willieminor/">IT Professional</a>☺</h1>
 
 <h2>👨‍💻 Information Technology Projects:</h2>
 
