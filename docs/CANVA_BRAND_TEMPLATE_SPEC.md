@@ -84,8 +84,10 @@ bottom-left (800, letter-spacing 3px) and "helpmybizz.com" bottom-right.
 - **Never fewer than 7 slides.** If all 7 can't be produced, deliver for
   manual posting rather than publishing a short carousel.
 - Every slide must use a **different layout** — no single repeated template.
-- Client CTA is always **https://helpmybizz.com**. `wlmproadvisors.com` is
-  recruiting-only and must never appear as a client CTA.
+- Client CTA is always **https://helpmybizz.com**. The recruiting domain is
+  **wlmproadvisor.com** (singular) and must never appear as a client CTA.
+  Note: `wlmproadvisors.com` (plural) has NO DNS record and does not exist —
+  it appeared in earlier instructions and would have been a dead link.
 - Verify every figure (IRS.gov preferred) before publishing.
 
 ## Housekeeping

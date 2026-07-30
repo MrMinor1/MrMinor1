@@ -168,14 +168,20 @@ no off-site copy and no record of what was protected.
 
 <h2>🖥️ Systems Administration Labs</h2>
 
-- <b>Microsoft Azure</b> — provisioned, configured and managed virtual machines across several
-  months of hands-on labs (Course Careers IT Track)
-  - [Configuring On-premises Active Directory within Azure VMs](https://github.com/joshmadakorcc/configure-ad)
-  - [Network Security Groups (NSGs) and Inspecting Network Protocols](https://github.com/joshmadakorcc/azure-network-protocols)
-- <b>osTicket (Help Desk Ticketing System)</b>
-  - [Prerequisites and Installation](https://github.com/joshmadakorcc/osticket-prereqs)
-  - [Post-Installation Configuration](https://github.com/joshmadakorcc/post-install-config)
-  - [Ticket Lifecycle Examples](https://github.com/joshmadakorcc/ticket-lifecycle)
+Hands-on lab work completed during the **Course Careers IT Track** — several months
+provisioning and managing Azure virtual machines, plus help-desk ticketing fundamentals.
+
+The walkthroughs linked below are the public reference guides these labs follow, authored by
+**[Josh Madakor](https://github.com/joshmadakorcc)** — they are his write-ups, not mine, and are
+included as a record of the curriculum rather than as original work.
+
+- <b>Microsoft Azure</b> —
+  [Configuring On-premises Active Directory within Azure VMs](https://github.com/joshmadakorcc/configure-ad) ·
+  [Network Security Groups (NSGs) and Inspecting Network Protocols](https://github.com/joshmadakorcc/azure-network-protocols)
+- <b>osTicket (Help Desk Ticketing System)</b> —
+  [Prerequisites and Installation](https://github.com/joshmadakorcc/osticket-prereqs) ·
+  [Post-Installation Configuration](https://github.com/joshmadakorcc/post-install-config) ·
+  [Ticket Lifecycle Examples](https://github.com/joshmadakorcc/ticket-lifecycle)
 
 ---
 
