@@ -115,3 +115,30 @@ roughly 85K and will not fit alongside other work. Per slide:
   4. Only when `whole` matches local, drive_assemble_image.
   5. Publish all URLs in ONE publish_media_v2 call (media accepts 1-10).
   6. POST the first comment via _zap_raw_request, then PIN BY HAND.
+
+## STANDING RULES added 2026-07-30 (user instruction)
+1. NEVER post fewer than 7 carousel slides. If all 7 cannot be verified and
+   hosted, deliver the slides for manual posting instead — do NOT publish a
+   short carousel. (The 2-slide Instagram post on 07-30 was a mistake.)
+2. NO GENERIC-LOOKING CONTENT. The old single-template look (kicker + headline
+   + paragraph on flat navy, repeated 7×) is retired.
+
+### v2 design system — scratchpad/gen_v2_0730.py
+Every slide must use a DIFFERENT layout. Components now available:
+  .card      bordered translucent panel (label / value / note)
+  .row       side-by-side cards
+  .badge     gold circular number badge
+  .tl        horizontal timeline w/ .dot .dotO .tlab markers
+  .vs        two-column comparison block, one column gold-tinted
+  body.inv   INVERTED slide — gold background, navy ink (use ~1 per carousel
+             as a visual break; this is what stops it looking templated)
+  .cnt       "n/7" slide counter, top right
+Layout note: body renders 1080x1200 and is cropped to 1080x1080, so the
+footer must sit at bottom:172px and .pad needs padding-bottom:250px, or the
+footer lands outside the crop (this bug bit on the first v2 render).
+
+### Packing for transport
+Render NATIVELY at the target size (--force-device-scale-factor=0.5, crop
+540) — never downscale with LANCZOS afterwards. Resampling antialiases the
+flat fills and nearly doubles the payload (143,328 chars vs 79,748 for the
+same 7 slides).
