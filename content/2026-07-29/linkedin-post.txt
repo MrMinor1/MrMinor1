@@ -1,0 +1,26 @@
+After enough of these conversations, you stop hearing four different problems and start hearing one.
+
+Ask a room of business owners what their biggest tax frustration is, and you'll get some version of:
+
+A) "Quarterly estimates confuse me."
+B) "My books are months behind."
+C) "I have no idea what I'll owe."
+D) "Should I have elected S-Corp by now?"
+
+Each sounds like a knowledge gap. None of them are.
+
+A is a missing calculation. The safe harbor number — pay 100% of last year's tax (110% above $150K AGI) and the penalty risk is gone — is one figure, computed once a year. Nobody ever handed it to them.
+
+B is a missing system. Owners treat catch-up as the goal, so they schedule heroic weekends that fix the backlog and change nothing structural. The backlog returns because the workflow that produced it is untouched.
+
+C is a missing checkpoint. No mid-year projection exists, so April is genuinely unknowable. It's not that the number is hard to produce — it's that no one is scheduled to produce it.
+
+D is a missing model. The S-Corp question has an arithmetic answer specific to one business's profit, payroll cost, and QBI position. In its absence, people substitute anecdotes.
+
+The common shape: these aren't things owners fail to KNOW. They're things nobody built — a number, a workflow, a checkpoint, a model. Which is oddly good news, because systems are buildable and character flaws aren't.
+
+(Housekeeping for anyone running payroll: Form 941 for Q2 is due Friday, July 31.)
+
+Which letter is your business, honestly?
+
+#TaxStrategy #SmallBusiness #FinancialSystems #Advisory #Accounting
