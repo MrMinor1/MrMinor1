@@ -213,6 +213,8 @@ included as a record of the curriculum rather than as original work.
 
 [<img align="left" alt="Will | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 [<img align="left" alt="Boss Tax Pro | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+[<img align="left" alt="Willie Minor | GitHub" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />][github]
 
 [linkedin]: https://linkedin.com/in/willieminor1
 [instagram]: https://www.instagram.com/bosstaxpro1/
+[github]: https://github.com/MrMinor1/MrMinor1
