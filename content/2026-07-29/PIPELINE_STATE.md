@@ -142,3 +142,36 @@ Render NATIVELY at the target size (--force-device-scale-factor=0.5, crop
 540) — never downscale with LANCZOS afterwards. Resampling antialiases the
 flat fills and nearly doubles the payload (143,328 chars vs 79,748 for the
 same 7 slides).
+
+## BRAND CORRECTION 2026-07-30 (user supplied real assets)
+The Instagram account is BOSS TAX PRO and its identity is NOT the navy
+#0F2A43 / flat gold #C9A227 template used until now. Sampled from the
+user's logo and YouTube banner:
+  background  #050607 near-black (banner is ~pure #000 with warm corner light)
+  gold        #D99920 primary, #F5C542 highlight, #A8761A deep, #C68718 mid
+  chrome      #FFFFFF -> #DCE6EF -> #9DAEBE -> #F2F6FA (the "BOSS" wordmark look)
+Identity cues: metallic GRADIENT type (never flat fills), warm radial glow
+from the top-right, thin gold hairline rules, gold gradient pill buttons,
+premium/luxury feel. Footer wordmark is "BOSS TAX PRO" + helpmybizz.com.
+Generator: content/2026-07-30/gen_boss.py  (gradient text via
+background-clip:text + -webkit-text-fill-color:transparent)
+The old navy set is kept at content/2026-07-30/slides/ for the WLM
+ProAdvisors Facebook face; slides-bosstaxpro/ is the Instagram face.
+
+## CANVA VERDICT 2026-07-30
+Canva IS connected and export-design returns a PUBLIC url Instagram can
+fetch (this sandbox cannot download those urls itself - egress 403 - but
+that does not matter, Instagram fetches server-side). However Canva's AI
+generate-design is NOT usable for this account: given exact copy and
+explicit do-not-rewrite instructions it still dropped "for six weeks" from
+the headline, ran two words together, and invented generic filler
+("Utilize the gap strategically", "Maximize opportunities during
+downtime"). Never publish Canva AI output for tax content unverified.
+There is also NO way to push a locally rendered PNG into Canva -
+upload-asset-from-url requires an already-public url.
+THE FIX: build ONE Canva brand template, 1080x1080, in the Boss Tax Pro
+identity above, with NAMED autofill text fields per layout. Then
+autofill-design + export-design = exact copy, on brand, public urls, no
+base64 transcription. search-brand-templates dataset=non_empty currently
+returns [] so none exists yet.
+Stray test design to delete: DAHQ4TAkrbU
