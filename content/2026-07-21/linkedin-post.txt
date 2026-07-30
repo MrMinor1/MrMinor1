@@ -1,0 +1,19 @@
+The largest small-business tax break in the code is also the least managed. Most owners couldn't tell you their number.
+
+The QBI deduction — up to 20% of pass-through profit, off the top, no spending required — became permanent under last year's tax law. For 2026 it comes with wider phase-in ranges and a new $400 minimum for anyone with even $1,000 of active business income. For a business netting $150K, it's worth roughly $30K of deduction, every year, indefinitely.
+
+Permanence changes the strategy conversation more than people realize. When QBI had an expiration date, optimizing around it felt like building on sand. Now it's load-bearing infrastructure, and three decisions quietly determine its size:
+
+1. Owner compensation. S-Corp salary reduces QBI dollar for dollar. The salary that minimizes payroll tax and the salary that maximizes QBI are different numbers — the right answer is an optimization, not a rule of thumb.
+
+2. Entity choice. The S-Corp election that saves self-employment tax can cost QBI. Above the thresholds (~$200K single / ~$400K joint in 2026), wages paid can INCREASE the deduction. The math flips by income level.
+
+3. Retirement contributions. Pre-tax contributions lower taxable income — and can lower QBI too. Sometimes the Roth option wins for reasons nobody expects.
+
+The pattern: QBI isn't claimed, it's shaped — by decisions made during the year, most of them before December.
+
+Do you know what your QBI deduction was last year — and whether it was as large as your facts allowed?
+
+(We'll check both, free → helpmybizz.com)
+
+#TaxStrategy #QBI #SmallBusiness #EntityStructure #Advisory
