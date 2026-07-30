@@ -3,8 +3,8 @@ Media ID : 18133450393612911  (CAROUSEL_ALBUM, 2 images)
 Permalink: https://www.instagram.com/p/DbZgiekGJ7S/
 Timestamp: 2026-07-30T01:27:45+0000
 Images   : 01-cover (540px) + 06-quote (540px), both checksum-verified
-           cover  https://lh3.googleusercontent.com/d/1gWH0Et0xu5utT3xIklaGoyLadtNxq6M2  (9125 B, fnv 6ceaa79b)
-           quote  https://lh3.googleusercontent.com/d/1PY_JpaOxlNGTn1cPEW3Q-EpEnQGr8Ggh  (5980 B, fnv d709c470)
+           cover  <DRIVE_PUBLIC_IMAGE_URL>  (9125 B, fnv 6ceaa79b)
+           quote  <DRIVE_PUBLIC_IMAGE_URL>  (5980 B, fnv d709c470)
 
 --- CAPTION AS PUBLISHED ---
 🩺 What's your biggest tax headache? Pick a letter.

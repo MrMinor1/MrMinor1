@@ -5,7 +5,7 @@ PNGs; those live only in the local git commits until push access is granted.
 
 ## Notion  (primary — captions/posts, full text)
 Parent page: "Boss Tax Pro / WLM ProAdvisors — Brand + Content Ops"
-https://app.notion.com/p/3ad64f54e68c81228711fadcca380399
+<NOTION_PAGE_URL>
 Also holds the brand system, standing content rules, Canva findings,
 per-channel status and the image-transport constraints.
 
@@ -28,7 +28,7 @@ per-channel status and the image-transport constraints.
 Every day that has caption text is now backed up somewhere off-container.
 
 ## Google Drive (secondary — earlier text bundles)
-Folder: WLM-Content-Archive  (id 1N3OYG2IXxsLueVlVxNmwYA7hW-WzS3ln)
+Folder: WLM-Content-Archive  (id <DRIVE_ARCHIVE_FOLDER_ID>)
 One file per day, verified on UTF-16 length + UTF-8 bytes + FNV-1a.
 See DRIVE_BACKUP_MANIFEST.md for the expected checksums.
 
@@ -38,3 +38,6 @@ See DRIVE_BACKUP_MANIFEST.md for the expected checksums.
 - The git history itself (19 signed commits).
 Granting the Claude GitHub App "Contents: Read and write" on
 MrMinor1/MrMinor1 preserves all of it with a single push.
+
+> Resource identifiers (sheet, Drive folder, Notion pages) are redacted from this
+> public repository. They are supplied to the scheduled run from its own configuration.

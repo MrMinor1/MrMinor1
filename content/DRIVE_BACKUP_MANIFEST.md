@@ -1,6 +1,6 @@
 # Google Drive text backup — WLM ProAdvisors content archive
 
-Drive folder: **WLM-Content-Archive**  (id 1N3OYG2IXxsLueVlVxNmwYA7hW-WzS3ln)
+Drive folder: **WLM-Content-Archive**  (id <DRIVE_ARCHIVE_FOLDER_ID>)
 
 Bundles are one file per day containing that day's facebook-post.txt,
 instagram-caption.txt, linkedin-post.txt (and any .md), separated by
@@ -54,3 +54,6 @@ scripts in the session scratchpad.
 Grant the Claude GitHub App **Contents: Read and write** on MrMinor1/MrMinor1.
 One `git push` then preserves all 14 commits including every PNG. Until then
 this Drive folder is the text-only safety net.
+
+> Resource identifiers (sheet, Drive folder, Notion pages) are redacted from this
+> public repository. They are supplied to the scheduled run from its own configuration.

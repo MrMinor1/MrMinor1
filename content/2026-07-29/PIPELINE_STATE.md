@@ -38,12 +38,12 @@ Script: scratchpad/brandpal.py + gen540.py
 ## Status of 2026-07-29 carousel (540px)
 | slide | session | stored | verified | assembled |
 |-------|---------|--------|----------|-----------|
-| 01-cover  | q1      | YES sha 50dddbd6 EXACT | whole 6ceaa79b EXACT | YES 1gWH0Et0xu5utT3xIklaGoyLadtNxq6M2 |
+| 01-cover  | q1      | YES sha 50dddbd6 EXACT | whole 6ceaa79b EXACT | YES <DRIVE_FILE_ID> |
 | 02-a      | q2      | FAILED - I truncated it (3306 vs 10608 chars) | - | no |
 | 03-b      | q3      | no | - | no |
 | 04-c      | q4      | no | - | no |
 | 05-d      | q5      | no | - | no |
-| 06-quote  | bigtest | YES | whole d709c470 EXACT | YES id 1PY_JpaOxlNGTn1cPEW3Q-EpEnQGr8Ggh |
+| 06-quote  | bigtest | YES | whole d709c470 EXACT | YES id <DRIVE_FILE_ID> |
 | 07-cta    | q7      | no | - | no |
 
 Local base64 + hashes: scratchpad/b64_540/*.b64
@@ -59,7 +59,7 @@ permissions". The Zapier connection lost Page access. No API can re-grant
 it; must be done in Meta's browser UI.
 
 ## Cleanup owed
-- Corrupt Drive file wlm-2026-07-29-cover.png id 1L39tHlRXxEAJ752zVJX59Jh5Tl9iHxWd
+- Corrupt Drive file wlm-2026-07-29-cover.png id <DRIVE_FILE_ID>
 - Stale chunks: CHUNK_wlm0729_0000.txt, CHUNK_wlm0729b_0000.txt, CHUNK_probe1_0000.txt
 - Backfill content-log rows for Jul 19, 21, 24
 
@@ -93,7 +93,7 @@ reliably transcribable in one session. Fix the transport instead:
   concept published on 07-30. Never post it — it would duplicate.
 - Drive scratch purged (7 files): CHUNK_ q1, q2, bigtest, wlm0729,
   wlm0729b, probe1, plus the corrupt wlm-2026-07-29-cover.png
-  (1L39tHlRXxEAJ752zVJX59Jh5Tl9iHxWd, never published).
+  (<DRIVE_FILE_ID>, never published).
 - Confirmed still live: wlm-2026-07-29-cover-540.png (9125 B) and
   wlm-2026-07-29-06-quote.png (5980 B).
 
@@ -175,3 +175,6 @@ autofill-design + export-design = exact copy, on brand, public urls, no
 base64 transcription. search-brand-templates dataset=non_empty currently
 returns [] so none exists yet.
 Stray test design to delete: DAHQ4TAkrbU
+
+> Resource identifiers (sheet, Drive folder, Notion pages) are redacted from this
+> public repository. They are supplied to the scheduled run from its own configuration.
