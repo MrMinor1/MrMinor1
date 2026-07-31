@@ -166,6 +166,24 @@ no off-site copy and no record of what was protected.
 
 ---
 
+### `CASE-008` · AI AGENT ENGINEERING · ◐ PILOT ACTIVE
+**Governed multi-agent research and media-production system**
+
+**Problem** — Current tax research, calculations, trend analysis, scripts, media production, and publication controls were being handled inside broad AI workflows with no reliable separation between evidence, creativity, release status, and final approval.
+
+**Action**
+- Designed a governed agent architecture with separate research, trend-intelligence, script, media, and executive-oversight responsibilities
+- Built versioned release workflows using immutable ZIP baselines, semantic versioning, SHA-256 manifests, detached attestations, exact-final-package testing, and Owner approval gates
+- Created Agent-001's evidence pipeline and moved it through genuine pytest validation, CLI verification, controlled shadow assignments, and a ten-slot limited operational pilot
+- Separated verified tax evidence from the creative layer so facts, calculations, caveats, and effective dates cannot be rewritten for entertainment
+- Built validated ChatGPT Skills for the Boss Tax Pro Media Engine and competitive character voice while preserving human-in-the-loop publication control
+
+**Stack** · `Python` `pytest` `CLI validation` `JSON/CSV schemas` `SHA-256` `GitHub` `AI agent orchestration` `OpenAI Skills` `Prompt engineering` `Release governance`
+
+**Result** — Agent-001 v1.0.2 is operating in a controlled pilot with two completed assignments, including an Owner-approved Form 1099 evidence package. The system now has a repeatable, auditable path from authoritative research to governed media production. [Full architecture, milestones, and controls](projects/boss-tax-pro-agent-studio/README.md)
+
+---
+
 <h2>🖥️ Systems Administration Labs</h2>
 
 Hands-on lab work completed during the **Course Careers IT Track** — several months
@@ -195,7 +213,8 @@ included as a record of the curriculum rather than as original work.
 | **Cloud &amp; Hosting** | Netlify production deployments, Microsoft Azure (VM provisioning &amp; management), AWS, WGU cloud coursework |
 | **Automation &amp; APIs** | Zapier, MCP integrations, REST APIs, OAuth 2.0, API workflows across QuickBooks Online, HubSpot, MailerLite, Gumroad |
 | **Scripting** | Python, Bash, Git, HTML/CSS, Headless Chromium, Pillow |
-| **Security** | Form spam/honeypot protection, access control, phishing awareness, confidential data handling |
+| **AI Systems Engineering** | Multi-agent architecture, OpenAI Skills, prompt engineering, governed workflows, pytest/CLI validation, semantic versioning, SHA-256 manifests, release integrity, human approval gates |
+| **Security** | Form spam/honeypot protection, access control, phishing awareness, confidential data handling, secret scanning, least-authority design |
 | **AI Production** | Descript, OpusClip, Zoice — AI-assisted video editing, content repurposing, and voice-cloned avatar video generation for multi-platform publishing |
 
 <h2>🎓 Credentials</h2>
