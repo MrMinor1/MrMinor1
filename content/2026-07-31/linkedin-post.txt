@@ -1,0 +1,22 @@
+Every few months a tax "loophole" goes viral, and I have the same conversation with an owner who tried it alone.
+
+The current one is Section 280A(g). The mechanics are real and the IRS states them plainly: use a dwelling as a residence, rent it fewer than 15 days in a year, and you don't report the rental income or deduct rental expenses against it.
+
+For an owner with a separate entity that's genuinely useful: the business deducts a reasonable rent for legitimate meetings, the owner excludes it from income. Deducted once, taxed never. Four lines of the code, not a scheme.
+
+But the failures I see are never about the rule. They're about the file behind it:
+
+• No demonstrable business purpose. A "board meeting" with no agenda, no attendees and no minutes is a transaction with nothing underneath it.
+• No support for the rate. If you can't produce written quotes from comparable venues, you've set a number rather than established one.
+• No count. Day 15 doesn't reduce the benefit — it makes the entire year's rent taxable.
+• Wrong structure entirely. Sole proprietors and single-member LLCs get nothing here. Paying rent to yourself moves money between your own pockets; there's no separate payer, so there's nothing to exclude.
+
+The pattern holds across every aggressive-sounding strategy: the tax treatment is rarely what gets challenged. The documentation is. A deduction is only as durable as the evidence you'd hand an examiner two years later.
+
+Which is the unglamorous version of planning — the value isn't knowing the rule exists, it's building the file that lets you keep it.
+
+If you've been eyeing this one, the first question isn't "how much can I charge?" It's "what's my entity, and what would I show?"
+
+(We'll walk through both, free → helpmybizz.com)
+
+#TaxStrategy #SmallBusiness #SCorp #Advisory #Accounting
