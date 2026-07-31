@@ -178,3 +178,28 @@ Stray test design to delete: DAHQ4TAkrbU
 
 > Resource identifiers (sheet, Drive folder, Notion pages) are redacted from this
 > public repository. They are supplied to the scheduled run from its own configuration.
+
+## FACEBOOK TARGET CHANGED 2026-07-31 (user)
+The Facebook page is now **Boss Tax Pro**, and it is a SEPARATE page — not a
+rename of the old one. Confirmed via Graph API lookup:
+
+    NEW  id 224669177386508  username BossTaxPro  name "Boss Tax Pro"
+         https://www.facebook.com/BossTaxPro
+    OLD  id 1256924064161267  username wlmtaxpro  name "Wlm ProAdvisors Program"
+
+`/wlmtaxpro` still resolves to the OLD page, so the two coexist. All future
+Facebook posts target **224669177386508**. The earlier standing rule naming
+facebook.com/wlmtaxpro and fallback 1256924064161267 is superseded.
+
+This also completes the brand consolidation: Instagram @bosstaxpro1 and
+Facebook /BossTaxPro now share the Boss Tax Pro identity, which is why the
+carousels use the black/gold/chrome brand rather than the old navy template.
+
+### Still blocked, and it is NOT the page
+The Zapier Facebook Pages connection itself is GONE:
+    "Authentication not found for FacebookV2CLIAPI"
+    "Authentication with ID 65379021 either doesn't exist or is not visible"
+Renaming or switching pages does not fix this. The app connection must be
+re-added first, and the Boss Tax Pro page ticked during the consent screen:
+    https://mcp.zapier.com/mcp/servers/f1312739-5fea-4e47-a10e-14f409230019/app-auth/FacebookV2CLIAPI
+Only after that will the page enum resolve and posting work.
