@@ -203,3 +203,18 @@ Renaming or switching pages does not fix this. The app connection must be
 re-added first, and the Boss Tax Pro page ticked during the consent screen:
     https://mcp.zapier.com/mcp/servers/f1312739-5fea-4e47-a10e-14f409230019/app-auth/FacebookV2CLIAPI
 Only after that will the page enum resolve and posting work.
+
+## OLD FACEBOOK PAGE DEACTIVATED 2026-07-31 (user)
+Graph API confirms 1256924064161267 ("Wlm ProAdvisors Program") is no longer
+reachable — "Object with ID ... does not exist". Boss Tax Pro is now the sole
+Facebook presence:
+
+    id 224669177386508  username BossTaxPro  is_published true  fan_count 0
+
+There is no fallback page any more. Do NOT retry 1256924064161267 — it is gone,
+not merely unpermissioned, and any reference to it should be treated as stale.
+Facebook posts go to 224669177386508 or nowhere.
+
+Note the page starts at zero followers, so early Facebook reach will be near
+nil until the audience is rebuilt. Worth pairing the first posts with a
+cross-post from Instagram (@bosstaxpro1) rather than expecting organic reach.
