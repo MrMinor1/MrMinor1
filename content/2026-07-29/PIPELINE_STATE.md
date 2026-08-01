@@ -218,3 +218,40 @@ Facebook posts go to 224669177386508 or nowhere.
 Note the page starts at zero followers, so early Facebook reach will be near
 nil until the audience is rebuilt. Worth pairing the first posts with a
 cross-post from Instagram (@bosstaxpro1) rather than expecting organic reach.
+
+## FACEBOOK ROOT CAUSE FOUND + PAGE ID CORRECTED 2026-08-01
+Diagnosed by probing Graph with the working Instagram connection's token
+(a Facebook user token for the account that authorises Zapier).
+
+### Why reconnecting Zapier kept failing
+`/me/accounts` was returning an EMPTY array. Zapier builds its Page dropdown
+from that edge, so there was genuinely nothing to offer — redoing the OAuth
+flow could never have fixed it. The problem was on the Meta side:
+  - `/me/businesses` -> portfolio "WLM ProAdvisors Program" 776588833160034
+  - `/{portfolio}/owned_pages` -> ONLY the old wlmtaxpro page, since deactivated
+  - the live Boss Tax Pro page was in neither list
+i.e. the authorising user had no admin role the API could see on any live page.
+
+### Now resolved
+After the user's Meta-side fixes, `/me/accounts` returns:
+    id 1299835469873620  "Boss Tax Pro"
+    tasks: MODERATE, MESSAGING, ANALYZE, ADVERTISE, CREATE_CONTENT, MANAGE
+
+### THERE ARE TWO "Boss Tax Pro" PAGES — use the right one
+    1299835469873620  no vanity handle, fan_count 3, ADMINISTERED BY US  <-- USE THIS
+    224669177386508   handle /BossTaxPro, fan_count 0, NOT in /me/accounts
+The page holding the nice vanity URL is NOT the one we control. Posting must
+target **1299835469873620**. The earlier note naming 224669177386508 as the
+target is WRONG and is superseded.
+
+Worth resolving out of band: either merge the duplicates in Meta
+(Settings > Merge Pages) or claim the @BossTaxPro username on 1299835469873620,
+so the followed page and the handle are the same object.
+
+### Remaining blocker (Zapier side only)
+The Zapier Facebook Pages connection is still a dead record:
+  "Authentication with ID 65379021 either doesn't exist or is not visible"
+Reconnect at:
+  https://mcp.zapier.com/mcp/servers/f1312739-5fea-4e47-a10e-14f409230019/app-auth/FacebookV2CLIAPI
+This time it WILL work, because /me/accounts now resolves a page with
+CREATE_CONTENT and MANAGE.
