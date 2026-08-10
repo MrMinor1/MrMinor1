@@ -2,6 +2,24 @@
 
 This file is the public, recruiter-facing progress log for the Boss Tax Pro multi-agent engineering project. It records only verified milestones and avoids publishing proprietary packages, credentials, private records, or unsupported certification claims.
 
+## 2026-08-10
+
+### Agent-001 Assignment 02 closure
+
+- Imported the authoritative `A001-PILOT-002` closure into Agent-001 controlled records.
+- Owner disposition: `OWNER_APPROVED_WITH_LIMITATIONS`.
+- Pilot assignments executed: 2 of 10.
+- Pilot assignments Owner-approved: 2 of 10.
+- Assignment 03 remains `RESERVED_NOT_YET_AUTHORIZED`.
+- Verified closure ZIP SHA-256: `5e75c04c866ac88741cc7434b74655f8bf032ff9cd110b91d28e700c35c13783`.
+- ZIP structural tests and detached checksums passed, including all internal evidence files.
+- Controlled records matched the verified ZIP payload byte-for-byte.
+- Phase 2D baseline pre/post tree hashes matched.
+- Assignment 02 was not rerun and its evidence packet was not modified.
+- Public, client-facing, production, publication, certification, and Agent-003 handoff authority remain ungranted.
+
+**Engineering capabilities demonstrated:** governed state synchronization, artifact-integrity verification, detached checksum validation, immutable evidence preservation, baseline tree-hash comparison, and Owner-controlled release authority.
+
 ## 2026-07-30
 
 ### Portfolio integration
