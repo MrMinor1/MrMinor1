@@ -2,7 +2,7 @@
 
 Public, recruiter-facing progress log. This file records verified milestones only and does not publish proprietary packages, credentials, private records, or unsupported approval claims. Detailed prior audit history remains preserved in Git history.
 
-## 2026-08-14 — Agent-002 v1.0.3 independent re-certification
+## 2026-08-14 — Agent-002 v1.0.3 certification cycle closed
 
 - Exact artifact: `Boss_Tax_Pro_Agent002_Trend_Intelligence_v1.0.3.zip`
 - Verified SHA-256: `a7e267cc33887c7ce6ea730700a4d72a1c9e16d90680a2c257331a92b2442d46`
@@ -17,11 +17,15 @@ Public, recruiter-facing progress log. This file records verified milestones onl
 
 **Technical disposition:** `CERTIFIED_AGENT002_INTEGRATION_CANDIDATE`
 
-**Owner disposition:** not yet separately recorded for v1.0.3. Technical certification does not itself grant production, public, client-facing, publication, tax-interpretation, or deployment authority.
+**Owner disposition:** `OWNER_APPROVED_WITH_LIMITATIONS`
+
+**Governed status:** `AGENT002_CONTROLLED_INTEGRATION_APPROVED_WITH_LIMITATIONS`
+
+Owner approval authorizes controlled internal Boss Tax Pro AI Studio integration testing. It does not grant public or client-facing operation, independent tax interpretation or tax-signoff authority, script generation or publication authority, autonomous approval of other agents, modification of Agent-001 evidence, unverified live-source connector production deployment, unapproved durable database or API deployment, or autonomous release/publication decisions.
 
 **Known integration limitations:** live source connectors, durable persistence, semantic duplicate indexing, and a deployed API service remain future integrations and were not certified by this package audit.
 
-**Active technical baseline:** Agent-002 v1.0.3. Earlier v1.0.0–v1.0.2 releases remain immutable historical artifacts.
+**Active approved baseline:** Agent-002 v1.0.3. Earlier v1.0.0–v1.0.2 releases remain immutable historical artifacts. Certification cycle closed.
 
 ## 2026-08-10 — Agent-001 Assignment 02 closure
 
@@ -39,7 +43,7 @@ Public, recruiter-facing progress log. This file records verified milestones onl
 |---|---|
 | Agent-000 | Controlled shadow operation |
 | Agent-001 v1.0.2 | Limited operational pilot active; 2/10 executed and Owner-approved |
-| Agent-002 v1.0.3 | `CERTIFIED_AGENT002_INTEGRATION_CANDIDATE`; Owner disposition pending |
+| Agent-002 v1.0.3 | `AGENT002_CONTROLLED_INTEGRATION_APPROVED_WITH_LIMITATIONS` |
 | Agent-003 v2 | Held at implementation gate |
 | Agent-004 | Blocked |
 | Agent-005 | Planned |
