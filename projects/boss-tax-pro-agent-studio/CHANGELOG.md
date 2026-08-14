@@ -4,7 +4,21 @@ This file is the public, recruiter-facing progress log for the Boss Tax Pro mult
 
 ## 2026-08-14
 
-### Agent-002 independent re-certification audit
+### Agent-002 v1.0.1 correction re-certification
+
+- Independently inspected the exact `Boss_Tax_Pro_Agent002_Trend_Intelligence_v1.0.1.zip` correction candidate.
+- Verified ZIP SHA-256: `18eb75d6a46408b0c394b4571cd7d5b0cdce2db39bf956a6b38f489af62d1a21`; detached checksum matched.
+- ZIP integrity, 45/45 internal checksums, full checksum coverage, schema/OpenAPI checks, secret scan, wheel build, clean virtual-environment install/import, and exact-final-tree stability passed.
+- Independently reran the exact-final ZIP suite: 69 tests, 0 failures, 0 errors.
+- Confirmed closure of the prior queue-governance bypass, invalid-source-signal acceptance, and missing runtime Validation Record defects.
+- Confirmed the source-promotion architecture works for ordinary weak-source labels, but unseen testing found a deterministic false-positive in authority classification: naive substring matching classified generic names such as `First Tax Blog` (`irs` inside `First`) and `Tax Governance Weekly` (`gov` inside `Governance`) as Tier 1 authorities.
+- Demonstrated the business consequence end-to-end: when `First Tax Blog` is indexed first and `IRS Newsroom` arrives second for the same topic, the IRS source is not promoted because both are incorrectly treated as Tier 1.
+- Governed outcome: `BLOCKED_PENDING_NARROW_CORRECTION`; no certification or production approval granted.
+- Required next artifact: a narrow v1.0.2 source-classification correction using token/phrase-boundary and hostname-aware authority matching. v1.0.1 remains preserved unchanged.
+
+**Engineering capabilities demonstrated:** exact-artifact re-certification, clean-install validation, unseen edge-case design, source-trust classification testing, authority-boundary analysis, deterministic duplicate-promotion testing, and semantic-versioned narrow repair planning.
+
+### Agent-002 v1.0.0 independent re-certification audit
 
 - Independently inspected the exact Agent-002 v1.0.0 release candidate.
 - Verified ZIP SHA-256: `a9cad698120e389db661ce497548ad67fe27a1331edde52dfa8bf7ec3bf94773`.
@@ -12,9 +26,9 @@ This file is the public, recruiter-facing progress log for the Boss Tax Pro mult
 - Independently reran the builder suite: 50 tests, 0 failures, 0 errors.
 - Unseen end-to-end Agent-001 research-request generation passed and prohibited script/publishing scope was correctly rejected.
 - Independent functional testing identified governance and interface defects not covered by the builder suite: queue items could be moved to a prohibited `Published` state, a later authoritative duplicate signal was not promoted over a weaker earlier source, and invalid blank source signals could emit objects that violate the shipped schema.
-- The documented Validation Record/interface-compliance contract is also not implemented in the core service.
+- The documented Validation Record/interface-compliance contract was also not implemented in the core service.
 - Governed outcome: `BLOCKED_PENDING_CORRECTIONS`; no certification or production approval was granted.
-- v1.0.0 remains preserved unchanged; the required next artifact is a narrow v1.0.1 correction candidate, not an architectural rewrite.
+- v1.0.0 remains preserved unchanged; the required next artifact was a narrow v1.0.1 correction candidate, not an architectural rewrite.
 
 **Engineering capabilities demonstrated:** independent software audit, unseen-input testing, governance-boundary testing, schema/runtime parity analysis, package/release integrity verification, defect isolation, and semantic-versioned repair planning.
 
