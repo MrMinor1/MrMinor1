@@ -4,6 +4,25 @@ This file is the public, recruiter-facing progress log for the Boss Tax Pro mult
 
 ## 2026-08-14
 
+### Agent-002 v1.0.3 independent re-certification — CLOSED
+
+- Independently inspected the exact `Boss_Tax_Pro_Agent002_Trend_Intelligence_v1.0.3.zip` final correction candidate.
+- Verified exact ZIP SHA-256: `a7e267cc33887c7ce6ea730700a4d72a1c9e16d90680a2c257331a92b2442d46`, matching the Owner-supplied checksum.
+- ZIP integrity passed with 46 entries, no duplicate entries, no unsafe paths, and no symlinks.
+- Internal SHA-256 verification passed for all 45 covered non-checksum files with complete coverage.
+- Seven JSON Schemas, OpenAPI 3.1 metadata, wheel build, clean virtual-environment install/import, secret scans, version identity, and exact-final-tree stability passed.
+- Independently reran the exact-final suite: **90 tests, 0 failures, 0 errors**.
+- Fresh unseen tests confirmed that embedded fragments such as `FIRS`, `Governor`, `Courtney`, and `Firsthand` do not receive false IRS/government/court authority boosts; look-alike authority URLs were also rejected.
+- Genuine IRS, government, and Tax Court labels/hosts retained their intended authority treatment.
+- End-to-end weak-source-first / IRS-source-second testing correctly promoted the stronger IRS source while preserving one governed canonical opportunity and provenance history.
+- Agent-001-compatible research-request generation passed; publication, script generation, approval, tax interpretation, citation generation, baseline modification, and `Published` queue transitions remained blocked.
+- Technical disposition: `CERTIFIED_AGENT002_INTEGRATION_CANDIDATE`.
+- Owner disposition: `OWNER_APPROVED_WITH_LIMITATIONS` for controlled internal integration testing.
+- This approval does **not** certify live source connectors, durable persistence, semantic duplicate indexing, a deployed API service, public operation, tax interpretation, or publication authority.
+- v1.0.3 is now the active Agent-002 core baseline; v1.0.0 through v1.0.2 remain historical immutable artifacts.
+
+**Engineering capabilities demonstrated:** exact-artifact certification, clean-build/install verification, independent unseen-input testing, source-trust boundary analysis, governed duplicate promotion, agent-to-agent contract validation, negative-scope testing, checksum provenance, and semantic-versioned release closure.
+
 ### Agent-002 v1.0.2 correction re-certification
 
 - Independently inspected the exact `Boss_Tax_Pro_Agent002_Trend_Intelligence_v1.0.2.zip` correction candidate.
@@ -11,10 +30,10 @@ This file is the public, recruiter-facing progress log for the Boss Tax Pro mult
 - ZIP integrity, 45/45 internal checksums, full checksum coverage, schema/OpenAPI checks, secret scan, wheel build, clean virtual-environment install/import, and exact-final-tree stability passed.
 - Independently reran the exact-final ZIP suite: 79 tests, 0 failures, 0 errors.
 - Confirmed the v1.0.1 source-quality correction now blocks the original `First`, `Governance`, `Courthouse`, and look-alike `.gov` false positives and correctly promotes a later IRS source over a generic canonical source.
-- Unseen end-to-end testing found a separate remaining substring defect in `scoring.py`: generic source names such as `First Tax Blog` can still trigger IRS trend classification and authority score boosts because `irs` is embedded inside `First`; `Courthouse Tax Blog` can similarly trigger court authority behavior.
+- Unseen end-to-end testing found a separate remaining substring defect in `scoring.py`: generic source names such as `First Tax Blog` could still trigger IRS trend classification and authority score boosts because `irs` was embedded inside `First`; `Courthouse Tax Blog` could similarly trigger court authority behavior.
 - Demonstrated operational impact: for `LLC 1099 deadline update`, a clearly generic source scored 69 / Medium while `First Tax Blog` scored 75 / High solely because of the false authority substring match.
 - Governed outcome: `BLOCKED_PENDING_NARROW_CORRECTION`; no technical certification or production approval granted.
-- Required next artifact: a narrow v1.0.3 correction replacing scoring/trend authority substring checks with the same boundary-aware token/phrase approach. v1.0.2 remains preserved unchanged.
+- Required next artifact was a narrow v1.0.3 correction replacing scoring/trend authority substring checks with the same boundary-aware token/phrase approach. v1.0.2 remains preserved unchanged.
 
 **Engineering capabilities demonstrated:** exact-artifact recertification, clean-install validation, unseen business-behavior testing, scoring and priority-boundary analysis, source-trust classification, deterministic defect isolation, and semantic-versioned repair planning.
 
@@ -26,9 +45,9 @@ This file is the public, recruiter-facing progress log for the Boss Tax Pro mult
 - Independently reran the exact-final ZIP suite: 69 tests, 0 failures, 0 errors.
 - Confirmed closure of the prior queue-governance bypass, invalid-source-signal acceptance, and missing runtime Validation Record defects.
 - Confirmed the source-promotion architecture works for ordinary weak-source labels, but unseen testing found a deterministic false-positive in authority classification: naive substring matching classified generic names such as `First Tax Blog` (`irs` inside `First`) and `Tax Governance Weekly` (`gov` inside `Governance`) as Tier 1 authorities.
-- Demonstrated the business consequence end-to-end: when `First Tax Blog` is indexed first and `IRS Newsroom` arrives second for the same topic, the IRS source is not promoted because both are incorrectly treated as Tier 1.
+- Demonstrated the business consequence end-to-end: when `First Tax Blog` was indexed first and `IRS Newsroom` arrived second for the same topic, the IRS source was not promoted because both were incorrectly treated as Tier 1.
 - Governed outcome: `BLOCKED_PENDING_NARROW_CORRECTION`; no certification or production approval granted.
-- Required next artifact: a narrow v1.0.2 source-classification correction using token/phrase-boundary and hostname-aware authority matching. v1.0.1 remains preserved unchanged.
+- Required next artifact was a narrow v1.0.2 source-classification correction using token/phrase-boundary and hostname-aware authority matching. v1.0.1 remains preserved unchanged.
 
 **Engineering capabilities demonstrated:** exact-artifact re-certification, clean-install validation, unseen edge-case design, source-trust classification testing, authority-boundary analysis, deterministic duplicate-promotion testing, and semantic-versioned narrow repair planning.
 
@@ -79,15 +98,15 @@ This file is the public, recruiter-facing progress log for the Boss Tax Pro mult
 - Pilot assignments authorized: 10
 - Pilot assignments executed: 2
 - Assignment 01: Owner approved with limitations
-- Assignment 02: executed; Owner review pending
+- Assignment 02: executed; Owner review pending at this historical checkpoint
 - Production authority: not granted
 - Publication authority: not granted
 - Client-facing authority: not granted
 
 ### Agent-002
 
-- Governed status: re-certification waiting
-- No new certification claim recorded
+- Governed status at this historical checkpoint: re-certification waiting
+- No certification claim was recorded at that time
 
 ### Agent-003
 
