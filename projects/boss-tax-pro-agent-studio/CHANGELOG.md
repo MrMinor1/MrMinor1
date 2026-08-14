@@ -2,6 +2,22 @@
 
 This file is the public, recruiter-facing progress log for the Boss Tax Pro multi-agent engineering project. It records only verified milestones and avoids publishing proprietary packages, credentials, private records, or unsupported certification claims.
 
+## 2026-08-14
+
+### Agent-002 independent re-certification audit
+
+- Independently inspected the exact Agent-002 v1.0.0 release candidate.
+- Verified ZIP SHA-256: `a9cad698120e389db661ce497548ad67fe27a1331edde52dfa8bf7ec3bf94773`.
+- Archive integrity, checksum verification, checksum coverage, secret scanning, version identity, wheel build, clean virtual-environment install, and import checks passed.
+- Independently reran the builder suite: 50 tests, 0 failures, 0 errors.
+- Unseen end-to-end Agent-001 research-request generation passed and prohibited script/publishing scope was correctly rejected.
+- Independent functional testing identified governance and interface defects not covered by the builder suite: queue items could be moved to a prohibited `Published` state, a later authoritative duplicate signal was not promoted over a weaker earlier source, and invalid blank source signals could emit objects that violate the shipped schema.
+- The documented Validation Record/interface-compliance contract is also not implemented in the core service.
+- Governed outcome: `BLOCKED_PENDING_CORRECTIONS`; no certification or production approval was granted.
+- v1.0.0 remains preserved unchanged; the required next artifact is a narrow v1.0.1 correction candidate, not an architectural rewrite.
+
+**Engineering capabilities demonstrated:** independent software audit, unseen-input testing, governance-boundary testing, schema/runtime parity analysis, package/release integrity verification, defect isolation, and semantic-versioned repair planning.
+
 ## 2026-08-10
 
 ### Agent-001 Assignment 02 closure
