@@ -4,6 +4,20 @@ This file is the public, recruiter-facing progress log for the Boss Tax Pro mult
 
 ## 2026-08-14
 
+### Agent-002 v1.0.2 correction re-certification
+
+- Independently inspected the exact `Boss_Tax_Pro_Agent002_Trend_Intelligence_v1.0.2.zip` correction candidate.
+- Verified ZIP SHA-256: `573f02cd148a2f13a5f8696c19392d62b3c9570612e1937d39b20d3964e8ef25`, matching the Owner-supplied checksum.
+- ZIP integrity, 45/45 internal checksums, full checksum coverage, schema/OpenAPI checks, secret scan, wheel build, clean virtual-environment install/import, and exact-final-tree stability passed.
+- Independently reran the exact-final ZIP suite: 79 tests, 0 failures, 0 errors.
+- Confirmed the v1.0.1 source-quality correction now blocks the original `First`, `Governance`, `Courthouse`, and look-alike `.gov` false positives and correctly promotes a later IRS source over a generic canonical source.
+- Unseen end-to-end testing found a separate remaining substring defect in `scoring.py`: generic source names such as `First Tax Blog` can still trigger IRS trend classification and authority score boosts because `irs` is embedded inside `First`; `Courthouse Tax Blog` can similarly trigger court authority behavior.
+- Demonstrated operational impact: for `LLC 1099 deadline update`, a clearly generic source scored 69 / Medium while `First Tax Blog` scored 75 / High solely because of the false authority substring match.
+- Governed outcome: `BLOCKED_PENDING_NARROW_CORRECTION`; no technical certification or production approval granted.
+- Required next artifact: a narrow v1.0.3 correction replacing scoring/trend authority substring checks with the same boundary-aware token/phrase approach. v1.0.2 remains preserved unchanged.
+
+**Engineering capabilities demonstrated:** exact-artifact recertification, clean-install validation, unseen business-behavior testing, scoring and priority-boundary analysis, source-trust classification, deterministic defect isolation, and semantic-versioned repair planning.
+
 ### Agent-002 v1.0.1 correction re-certification
 
 - Independently inspected the exact `Boss_Tax_Pro_Agent002_Trend_Intelligence_v1.0.1.zip` correction candidate.
